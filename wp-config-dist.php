@@ -83,6 +83,16 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define('WP_CRON_LOCK_TIMEOUT', 120);
+define('AUTOSAVE_INTERVAL', 300);
+define('WP_POST_REVISIONS', 5);
+define('EMPTY_TRASH_DAYS', 7);
+define('WP_AUTO_UPDATE_CORE', true);
+
+define('ALLOW_UNFILTERED_UPLOADS', true);
+define('DISABLE_WP_CRON', true);
+define('DISALLOW_FILE_EDIT', true);
+define('CONCATENATE_SCRIPTS', false);
 
 
 /* That's all, stop editing! Happy publishing. */
