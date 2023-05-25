@@ -50,3 +50,4 @@ Thumbs.db
 
 .htaccess
 wp-content/uploads
+wp-config.php
